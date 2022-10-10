@@ -1,0 +1,148 @@
+body{
+    background: #E5E5E5; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+    
+h1{
+    color: rgb(2, 2, 145);
+    font-size: 51pt;
+    font-family: 'kodama', Helvetica, Arial, sans-serif;}
+
+h2{
+    color: rgb(11, 11, 138);
+    font-size: xx-large;
+    font-family: 'kodama', arial, serif;
+    text-align: justify;}
+
+h3{
+    background-size: 50%;
+    background-color: rgb(2, 2, 145);
+    color: #ff7300;
+    font: italic x-large 'Opensans-ExtraBoldItalic';
+    text-transform : uppercase ;}
+
+h4{
+    background-color: #ff7300;
+    color: #091f19af;
+    font: x-large 'OpenSans-regular';
+    text-transform: uppercase;
+    font-weight:bold; 
+}
+
+
+ol{
+    font: large 'OpenSans-regular';
+    list-style: none;}
+
+ul {
+    font: large 'OpenSans-regular';}
+#formation{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+    font: large 'OpenSans-Regular';
+}
+.links {
+    font: smaller 'OpenSans-semibold';
+  border: 1px solid rgb(154, 216, 235);
+  padding: 15px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;}
+
+.links a {
+  background: rgb(2, 2, 145);
+  border: 2px solid rgb(2, 2, 145);
+  border-radius: 3px;
+  color: #e5eb34;
+  display: inline-block;
+  margin: 12px;
+  padding: 16px;
+  text-decoration: none;
+text-align: center;}
+.links a:hover {
+    background: #800000;
+    border: 1px solid rgb(154, 216, 235);
+    color: #00FFFF;
+    font-weight: bold;}
+  
+.container {
+max-width: 1300px;
+margin: 40px auto 0 auto;
+line-height: 1.65;
+padding: 20px 50px;
+display: flex;
+align-items: baseline;
+}   
+
+.colone1 {
+    flex: 1;}
+.colone1 {
+    flex: 3;}   
+
+.interet {
+    font: large 'OpenSans-regular';
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+text-align: center;}
+
+#profession {
+    border: 1px solid rgb(232,244,248);
+    background-color: rgb(232,244,248); 
+    color: #ff7300;
+    text-align: center;
+    font-family: 'Eyad';}
+
+#hayao {
+    float: right;}
+
+.discribe {
+    border: 10px rgb(2, 2, 119) groove;
+    font-family: 'OpenSans-regular';
+    font-size: large;
+    text-indent: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 10px;}
+
+#Langue {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font: large 'OpenSans-regular';}
+
+.films:hover{
+    text-decoration: underline;
+    color: #070145;
+    font-weight: bold; }
+ 
+
+
+
+    @font-face{
+        font-family: 'kodama';
+        src: url('fonts/Kodama-Rg.otf') }
+    @font-face{ 
+        font-family: 'Opensans-ExtraBoldItalic';
+        src: url('fonts/OpenSans/Open\ Sans\ ExtraBold\ Italic\ 800.ttf');}
+    @font-face{
+        font-family: 'Eyad';
+        src: url('fonts/Eyad\ Al-Samman\ -\ Ghibli.ttf');}
+    @font-face{
+        font-family: 'OpenSans-regular';
+        src: url('fonts/OpenSans/OpenSans-Regular.ttf');}
+    @font-face{
+        font-family: 'OpenSans-semibolditalic';
+        src: url('fonts/OpenSans/OpenSans-SemiBoldItalic.ttf');}
+    @font-face{
+            font-family: 'OpenSans-semibold';
+            src: url('fonts/OpenSans/OpenSans-SemiBold.ttf');}
+
+
+
